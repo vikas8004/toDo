@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+    90deg,
+    rgb(74, 74, 224),
+    rgb(212, 147, 158)
+  );
+}
+#container {
+  max-height: 100vh;
+  max-width: 500px;
+  min-width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+}
+#additem {
+  margin-bottom: 20px;
+  position: relative;
+  margin: 20px 0px;
+  font-size: 19px;
+}
+#container h1 {
+  color: rgb(35, 35, 179);
+  margin: -3px;
+  margin-left: 5px;
+}
+#additem input {
+  background-color: rgb(216, 210, 210);
+  border: none;
+  outline: none;
+  padding: 12px;
+  width: 90%;
+  border-radius: 20px;
+  font-size: 20px;
+}
+#additem button {
+  position: absolute;
+  left: 70%;
+  top: 2%;
+  padding: 11px;
+  border-radius: 20px;
+  width: 70px;
+  border: none;
+  outline: none;
+  background-color: rgba(241, 60, 5, 0.836);
+  color: white;
+  font-size: 20px;
+}
+#tasks label {
+  display: block;
+  width: 90%;
+  position: relative;
+}
+
+.cut {
+  position: absolute;
+  right: 1px;
+  font-weight: bolder;
+  cursor: pointer;
+  font-size: 20px;
+}
+.cut:hover {
+  background-color: grey;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.lb input {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.lb {
+  margin-bottom: 10px;
+}
+p {
+  display: inline-block;
+  font-size: 20px;
+}
